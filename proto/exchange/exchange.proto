@@ -26,7 +26,7 @@ message ExchangeRateResponse {
     double rate = 3;
 }
 
-// Ответ с курсами обмена всех валют
+// Ответ с курсами обмена всех валют 123
 message ExchangeRatesResponse {
     map<string, float> rates = 1; // ключ: валюта, значение: курс
 }

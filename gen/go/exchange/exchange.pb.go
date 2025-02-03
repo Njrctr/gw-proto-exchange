@@ -135,7 +135,7 @@ func (x *ExchangeRateResponse) GetRate() float64 {
 	return 0
 }
 
-// Ответ с курсами обмена всех валют
+// Ответ с курсами обмена всех валют 123
 type ExchangeRatesResponse struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	Rates         map[string]float32     `protobuf:"bytes,1,rep,name=rates,proto3" json:"rates,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"fixed32,2,opt,name=value"` // ключ: валюта, значение: курс
