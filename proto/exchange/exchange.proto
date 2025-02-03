@@ -23,7 +23,7 @@ message CurrencyRequest {
 message ExchangeRateResponse {
     string from_currency = 1;
     string to_currency = 2;
-    float rate = 3;
+    double rate = 3;
 }
 
 // Ответ с курсами обмена всех валют
